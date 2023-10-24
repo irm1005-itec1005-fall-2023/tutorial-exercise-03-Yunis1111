@@ -7,9 +7,14 @@
 
 /* Styles for the HTML Body element */
 body {
-  /* 1. Add a background colour of #1d3557ff */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1d3557ff;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
-
+  /* 1. Add a background colour of #1d3557ff */
+  background-color: #1d3557ff;
 /*
 
 Create a class called blue-box and add the following styles to it
@@ -64,7 +69,7 @@ Create a class called blue-box-box-sizing and add the following styles to it
 */
 main .blue-box {
   box-sizing: content-box;
-  width: 600px;
+  width: 700px;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 2rem;
